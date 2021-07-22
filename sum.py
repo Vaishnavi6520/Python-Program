@@ -7,4 +7,4 @@ def addNumbers(a,b):
 
 a=int(input("Enter a first number: "))
 b=int(input("Enter a Second number: "))
-print(addNumbers(n1,n2))
+print(addNumbers(a,b))
