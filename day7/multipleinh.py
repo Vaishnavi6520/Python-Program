@@ -13,9 +13,13 @@ class Calculator(AdditionOperation,SubtractOperation,MultiOperation):
     pass
 
 objcalci=Calculator()
-x=int(input("Enter a number : "))
-y=int(input("Enter a number : "))
-print(objcalci.multiTwoNum(x,y))
-print(objcalci.addTwoNum(x,y))
-print(objcalci.subTwoNum(x,y))
+# x=int(input("Enter a number : "))
+# y=int(input("Enter a number : "))
+# print(objcalci.multiTwoNum(x,y))
+# print(objcalci.addTwoNum(x,y))
+# print(objcalci.subTwoNum(x,y))
+print(issubclass(Calculator,MultiOperation))
+print(issubclass(Calculator,SubtractOperation))
+print(issubclass(Calculator,AdditionOperation))
+print(issubclass(SubtractOperation, AdditionOperation))
 
