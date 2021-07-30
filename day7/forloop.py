@@ -4,6 +4,7 @@
 #     if x%2!=0:
 #         print(x)
 
-for x in "India":
-    print(x)
-    
+# for x in "India":
+#     print(x)
+
+# def counter(x)

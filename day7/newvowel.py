@@ -7,6 +7,7 @@ vowel="aeiou"
 for i in articles:
     title=i["title"]
     count={}.fromkeys(vowel,0)
+    # print(count)
     print(title)
 
 for x in title.lower():
