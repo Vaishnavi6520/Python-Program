@@ -14,3 +14,6 @@ objSeller=Seller()
 objSeller.CustomerOrder("Vaishnavi",7865479754)
 objSeller.makeACar("BMW","Black",20000000)
 objSeller.alotNumber("MP12C28736")
+
+all program today
+for a inheritance or multilevel 3-4 example
