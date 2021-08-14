@@ -15,4 +15,7 @@ data=input("Enter a string:")
 # # print(data[len(data)-1]) #printing last letter
 # print(data[22])     #index out of rnge if string is less that index
 # print(data[1:4])    #slicing
+
+print(data[::-1]) #re
+
 print(data[::-1])

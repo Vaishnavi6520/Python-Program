@@ -23,6 +23,7 @@ def validate(dict1):
         return True
     else:
         return False
+
 while(1):
     print("1.add employee")
     print("2.view employee")
@@ -39,5 +40,7 @@ while(1):
     if option==2:
         print(employeedict.maps)
     if option==3:
+        sal=int(input("Enter the salary to check :"))
+        salarylist=[i for i in employeedict.maps if i]
         break
 # print(employeedict.maps)
